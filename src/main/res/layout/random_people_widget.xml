@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.JetpackComposeSimpreRestApi.AppWidget.Container"
+    android:theme="@style/Theme.JetpackComposeSimpreRestApi.AppWidgetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/appwidget_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/unknown_face"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Image" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="1800000"
+    android:previewImage="@drawable/unknown_face"
+    android:initialLayout="@layout/random_people_widget"
+    android:description="@string/app_widget_description"
+
+    android:widgetCategory="home_screen"
+    android:previewLayout="@layout/random_people_widget"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellHeight="1"
+    android:targetCellWidth="1"
+    android:initialKeyguardLayout="@layout/random_people_widget"
+/>
